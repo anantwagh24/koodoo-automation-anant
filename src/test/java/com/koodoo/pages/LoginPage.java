@@ -30,13 +30,12 @@ public class LoginPage extends BaseClass {
 	@FindBy(xpath="//div[@class='ui fluid large blue submit button']") 
 	WebElement loginSubmitButton;
 	
-	
+
 	public void loginToCRM(String usernameApplication, String passwordApplication) {
 		loginButton.click();
 		username.sendKeys(usernameApplication);
 		password.sendKeys(passwordApplication);
 		loginSubmitButton.click();
 	}
-
 
 }
