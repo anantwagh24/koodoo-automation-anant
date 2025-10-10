@@ -29,7 +29,6 @@ public class BaseClass {
 		config = new ConfigReader();
 	}
 
-	
 	@BeforeClass(alwaysRun = true)
 	public void setUp() {
 		String browser = config.getBrowser();
