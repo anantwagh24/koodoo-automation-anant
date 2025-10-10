@@ -1,0 +1,8 @@
+/src/
+/target/
+/test-output/
+.idea/
+.classpath
+.project
+.settings/
+.DS_Store
