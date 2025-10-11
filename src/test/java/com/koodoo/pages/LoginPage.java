@@ -13,8 +13,7 @@ public class LoginPage extends BaseClass {
 	
 	public LoginPage(WebDriver ldriver) {
 		
-		this.driver = ldriver;
-		
+		this.driver = ldriver;		
 		
 	}
 	
