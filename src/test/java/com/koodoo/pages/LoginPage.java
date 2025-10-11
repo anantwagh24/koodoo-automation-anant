@@ -19,18 +19,18 @@ public class LoginPage extends BaseClass {
 	}
 	
 	@FindBy(xpath="//span[normalize-space()='Log In']") 
-	WebElement loginButton;
+	private WebElement loginButton;
 
 	@FindBy(xpath="//input[@placeholder='Email']") 
-	WebElement username;
+	private WebElement username;
 	
 	@FindBy(xpath="//input[@placeholder='Password']") 
-	WebElement password;
+	private WebElement password;
 	
 	@FindBy(xpath="//div[@class='ui fluid large blue submit button']") 
-	WebElement loginSubmitButton;
+	private WebElement loginSubmitButton;
 	
-
+	
 	public void loginToCRM(String usernameApplication, String passwordApplication) {
 		loginButton.click();
 		username.sendKeys(usernameApplication);
