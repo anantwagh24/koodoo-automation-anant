@@ -3,7 +3,7 @@ package com.koodoo.javaprograms;
 public class Pprintvowelsoccurances {
 
 	public static void main(String[] args) {
-		String str="Anant is extraordinary human";
+		String str="Anant is extraordinary human being";
 		int count=0;
 		
 		for(int i=0;i<str.length();i++) {

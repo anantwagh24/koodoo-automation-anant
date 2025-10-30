@@ -39,7 +39,9 @@ public class BrowserFactory {
             System.out.println("⚠️ Invalid browser name provided. Launching Chrome as default...");
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
+          //  In Selenium’s Java framework, ChromeOptions is a class used to customize and configure the behavior of the Google Chrome browser when running automated tests.
             options.addArguments("--start-maximized");
+           // Above line tells Google Chrome to start the browser window maximized when launched by Selenium.
             driver = new ChromeDriver(options);
         }
 
@@ -49,11 +51,6 @@ public class BrowserFactory {
         System.out.println("✅ Application started on " + appURL + " using " + browserName);
         return driver;
     }
-    
-//    public static void quitBrowser(WebDriver driver) {
-//    	driver.quit();
-//    	System.out.println("✅ Browser closed");
-//    }
     
     public static void quitBrowser(WebDriver driver) {
         if (driver != null) {

@@ -13,5 +13,6 @@ public class Tsetexample {
 	        passportNumbers.add("P1234"); // duplicate ignored
 	        
 	        System.out.println("Unique passports: " + passportNumbers);
+	        System.out.println(passportNumbers.hashCode());
 	}
 }

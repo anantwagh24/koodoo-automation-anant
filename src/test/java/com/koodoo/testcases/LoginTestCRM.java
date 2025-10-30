@@ -17,7 +17,6 @@ public class LoginTestCRM extends BaseClass{
 	@Test
 	public void loginApp() {
 	
-				
 		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
 		
 		loginPage.loginToCRM(excel.getStringData("Login", 0, 0), excel.getStringData("Login", 0, 1));

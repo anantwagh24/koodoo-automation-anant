@@ -10,7 +10,7 @@
   
   <test thread-count="5" name="Koodoo Compare Automation">
     <classes>
-      <class name="com.koodoo.testcases.LoginTestCRM"/>
+      <class name="com.koodoo.testcases.NaukriTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
