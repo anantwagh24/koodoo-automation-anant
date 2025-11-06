@@ -9,8 +9,10 @@ public class APrintStar {
 			}
 			System.out.println(" ");
 		}
+		
 
 	}
 }
+
 
 

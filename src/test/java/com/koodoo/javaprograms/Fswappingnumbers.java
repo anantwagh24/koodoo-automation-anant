@@ -9,7 +9,7 @@ public class Fswappingnumbers {
 		
 		System.out.println("number before swap: "+a+ " & "+b);
 		
-		a=a+b;
+		a=a+b; 
 		b=a-b;
 		a=a-b;
 		

@@ -3,14 +3,15 @@ package com.koodoo.javaprograms;
 public class DcharacterOccurance {
 
 	public static void main(String[] args) {
-		String string = "ICIICICICIICICICIIVIVIIDIDIDIFIIBIIIWIEIEIEIIFIVIIIIDIDIDIIDIIDID";
+		String str = "ICIICICICIICICICIIVIVIIDIDIDIFIIBIIIWIEIEIEIIFIVIIIIDIDIDIIHIGIHIIDIIDID";
 		char ch='I';
 		int count=0;
-		
-		for(int i=0;i<string.length();i++) {
-			if(string.charAt(i)==ch) {
+		//str.toLowerCase();
+		//str.toUpperCase();
+
+		for(int i=0;i<str.length();i++) {
+			if(str.charAt(i)==ch) {
 				count++;
-				
 			}
 		}
 		System.out.println("Occurence of character '"+ch+"' is: "+count+"  times");
@@ -18,5 +19,3 @@ public class DcharacterOccurance {
 	}
 
 }
-
-

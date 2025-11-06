@@ -8,9 +8,9 @@ public class Etakinguserinput {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("enter your name: ");
-		String str = sc.nextLine();
-		System.out.println("your name is: "+str);				
+		System.out.println("enter your string: ");
+		String str=sc.nextLine();
+		System.out.println("your string is: "+str);
 	}
 
 }

@@ -12,10 +12,10 @@ public class zzFrom1To100CalculateSum {
 			sum+=i;
 		}
 		
-		double average= (double) sum/end;
-
-		System.out.println("Sum of numbers from " + start + " to " + end + " is: " + sum);
-        System.out.println("Average of numbers from " + start + " to " + end + " is: " + average);
+		double average=  (double)sum/end;
+		
+		System.out.println("sum is: "+sum);
+		System.out.println("average is: "+average);
    
 	}
 
