@@ -29,14 +29,14 @@ public class BaseClass {
 		config = new ConfigReader();
 	}
 
-	@BeforeClass(alwaysRun = true)
+	@BeforeMethod(alwaysRun = true)
 	public void setUp() {
 		String browser = config.getBrowser();
         String baseURL = config.getBaseURL();
         driver = BrowserFactory.startApplication(driver, browser, baseURL);
 		System.out.println(driver.getTitle());
 	}	
-	@AfterClass(alwaysRun = true)
+	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		BrowserFactory.quitBrowser(driver);
 	}
