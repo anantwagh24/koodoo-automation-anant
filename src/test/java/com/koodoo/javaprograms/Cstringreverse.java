@@ -1,17 +1,19 @@
 package com.koodoo.javaprograms;
 
+import java.util.Scanner;
+
 public class Cstringreverse {
 
 	public static void main(String[] args) {
-		String s1="Anant";
-		
-		StringBuilder sb=new StringBuilder();
+		StringBuilder sb = new StringBuilder();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your string: ");
+		String s1 = sc.nextLine();
+		System.out.println("your string is: " + s1);
+
 		sb.append(s1);
 		sb.reverse();
-		System.out.println("Reversed string is: "+sb);
-		sb.reverse();
-		System.out.println("Re - Reversed string is: "+sb);
-
+		System.out.println("reversed string is: " + sb);
 	}
 
 }

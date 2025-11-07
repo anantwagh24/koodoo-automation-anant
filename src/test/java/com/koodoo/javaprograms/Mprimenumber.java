@@ -4,32 +4,25 @@ import java.util.Scanner;
 
 public class Mprimenumber {
 
-	public static boolean isPrime(int num) {
-		if(num<=1) {
-			return false;
-		}
+	public static void main(String[] args) {
 
-		for(int i=2;i<num;i++) {
-			if(num%2==0) {
-				return false;
+		int n = 101;
+
+		boolean isPrime = true;
+
+		if (n < 1) {
+			isPrime = false;
+		} else {
+			for (int i = 2; i < n; i++) {
+				if (n % i == 0) {
+					isPrime = false;
+					break;
+				}
 			}
 		}
-		return true;
-	}
-
-
-	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-
-		System.out.println("Enter your number: ");
-		int number=sc.nextInt();
-
-		if(isPrime(number)) 
-			System.out.println(number+" is prime");
-		else 
-			System.out.println(number+" is not prime");
-
+		if (isPrime)
+			System.out.println(n+" number is prime");
+		else
+			System.out.println(n+" number is not prime");
 	}
 }
-
-

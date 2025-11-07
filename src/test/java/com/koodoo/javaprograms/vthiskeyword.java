@@ -2,17 +2,18 @@ package com.koodoo.javaprograms;
 
 public class vthiskeyword {
 
-	int a=4;
+	int a = 6;
 
 	public void abc() {
-		int a=5;
-		System.out.println("value of a of method abc: "+a);
-		System.out.println("Value of a declared at the class level: "+this.a);
+		int a = 5;
+		System.out.println("value of local variable 'a' is: " + a);
+		System.out.println("value of global variable 'a' is: " + this.a);
+
 	}
 
 	public static void main(String[] args) {
-		vthiskeyword vtk= new vthiskeyword();
+
+		vthiskeyword vtk = new vthiskeyword();
 		vtk.abc();
 	}
-
 }
