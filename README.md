@@ -1,4 +1,4 @@
-ALL LAYERS OF FRAMEWORK: BPTU LCRC
+All 8 layers of Framework (trick): BPTU LCRC
 
 (I.E. Base, Page, Test, Utility, Listneres, Config, Reportinf, CiCd )
 
@@ -41,4 +41,5 @@ I’ve integrated custom TestNG listeners to handle logging, test retries, and s
 Finally, this framework is fully CI/CD-ready, integrated with GitHub and Jenkins pipelines, enabling automated execution, reporting, and test maintenance across environments.
 
 Overall, this framework demonstrates clean OOP principles, modular architecture, and scalable design, supporting a complete end-to-end automation lifecycle — from execution to reporting.
+
 
