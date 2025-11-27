@@ -1,6 +1,6 @@
 All 8 layers of Framework (trick): BPTU LCRC (B.P.T.U. L.C.R.C)
 
-(I.E. Base, Page, Test, Utility, Listneres, Config, Reportinf, CiCd )
+(I.E. Base, Page, Test, Utility, Listneres, Config, Reporting, CiCd )
 
 🚀 Koodoo Automation Framework – Final Story (Interview Version)
 
