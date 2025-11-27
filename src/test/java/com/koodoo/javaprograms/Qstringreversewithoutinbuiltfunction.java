@@ -7,16 +7,15 @@ public class Qstringreversewithoutinbuiltfunction {
 	public static void main(String[] args) {
 
 		Scanner sc=new Scanner(System.in);
-		System.out.println("enter your input as string: ");
-		String s1=sc.nextLine();
-		System.out.println("YOUR string is: "+s1);
+
+		System.out.println("Enter your string: ");
+
+		String str=sc.nextLine();
 		
-		int count=0;
-		
-		for(int i=s1.length();i>0;i--) {
-			System.out.print(s1.charAt(i-1));
+		for(int i=str.length();i>0;i--) {
+			System.out.print(str.charAt(i-1));
 		}
 		
-	}
 
+	}
 }

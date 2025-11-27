@@ -3,15 +3,17 @@ package com.koodoo.javaprograms;
 public class Iremovespecialcharacterfromstring {
 
 	public static void main(String[] args) {
-		String s1 = "A!N@A#N$T%W&A&G*H";
-		String s2 = " ";
+		String str="!QW@#E$RT%Y&UI*(O)P";
 
-		for (int i = 0; i < s1.length(); i++) {
-			if (s1.charAt(i) > 64 && s1.charAt(i) < 122) {
-				s2 = s2 + " " + s1.charAt(i);
+		String s2=" ";
+
+		for(int i=0;i<str.length();i++) {
+			if(str.charAt(i)>64 && str.charAt(i)<122) {
+				s2=s2+str.charAt(i);
 			}
+		
 		}
-		System.out.println("pure string is :" + s2);
+		System.out.println("Clean string is: "+s2);	
 	}
 
 }

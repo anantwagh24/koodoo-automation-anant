@@ -6,14 +6,15 @@ public class zzFrom1To100CalculateSum {
 		
 		int sum=0, start=0, end=100;
 		
-		for(int i=start;i<=end;i++) {
+		for(int i=start; i<=end;i++) {
 			sum+=i;
 		}
 		
+		System.out.println("your sum is: "+sum);
+		
 		double average= (double) sum/end;
 		
-		System.out.println("sum is: "+sum+" and average is: "+average);
-   
+		System.out.println("average is: "+average);
 	}
 
 }

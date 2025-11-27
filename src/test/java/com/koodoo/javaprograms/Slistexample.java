@@ -9,9 +9,9 @@ public class Slistexample {
 		// When to use: ➡️ When you need to store items in order, and duplicates are
 		// okay.
 
-		ArrayList<Object> al = new ArrayList<>();// TO ADD  VALUES AS MIX OF STRING AND INTEGER
-		//ArrayList<String > hm=new ArrayList<>(); To add Both key value as STRINGS
-		//ArrayList<Integer> hm=new ArrayList<>(); To add Both key value as INTEGER
+		ArrayList<Object> al = new ArrayList<>(); // TO ADD VALUES AS MIX OF STRING AND INTEGER
+		// ArrayList<String > hm=new ArrayList<>(); To add Both key value as STRINGS
+		// ArrayList<Integer> hm=new ArrayList<>(); To add Both key value as INTEGER
 		al.add("apple");
 		al.add("berry");
 		al.add("cherry");

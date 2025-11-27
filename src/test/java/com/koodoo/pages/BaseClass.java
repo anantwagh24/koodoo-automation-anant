@@ -22,7 +22,7 @@ public class BaseClass {
 	public ExcelDataProvider excel;
 	public ConfigReader config;
 	public HelperMethods helper;
-	
+
 	@BeforeSuite(alwaysRun = true)
 	public void setUpSuite() throws IOException {
 		excel = new ExcelDataProvider();
@@ -32,17 +32,17 @@ public class BaseClass {
 	@BeforeMethod(alwaysRun = true)
 	public void setUp() {
 		String browser = config.getBrowser();
-        String baseURL = config.getBaseURL();
-        driver = BrowserFactory.startApplication(driver, browser, baseURL);
+		String baseURL = config.getBaseURL();
+		driver = BrowserFactory.startApplication(driver, browser, baseURL);
 		System.out.println(driver.getTitle());
-	}	
+	}
+
 	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		BrowserFactory.quitBrowser(driver);
 	}
-	
+
 	public void click(By locator) {
-	    HelperMethods.jsClick(driver, locator);  // for dynamic elements
+		HelperMethods.jsClick(driver, locator); // for dynamic elements
 	}
 }
-

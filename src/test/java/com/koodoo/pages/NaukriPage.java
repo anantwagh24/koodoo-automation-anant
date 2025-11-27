@@ -6,21 +6,19 @@ import org.openqa.selenium.support.FindBy;
 
 import com.koodoo.utility.HelperMethods;
 
-public class NaukriPage extends BaseClass{
+public class NaukriPage extends BaseClass {
 	WebDriver driver;
 	HelperMethods helper;
-	
+
 	public NaukriPage(WebDriver ldriver) {
-		this.driver = ldriver;		
+		this.driver = ldriver;
 	}
 
-	
-	@FindBy(xpath="//div[normalize-space()='Services']")
+	@FindBy(xpath = "//div[normalize-space()='Services']")
 	private WebElement serviceLink;
-	
-	
+
 	public void clickOnService() {
 		serviceLink.click();
-		
+
 	}
 }
